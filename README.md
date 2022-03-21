@@ -1,2 +1,2 @@
 # gb_cs
-geek brains Введение в C#
+gb Введение в C#
