@@ -1,23 +1,36 @@
 ﻿using System;
 
-namespace lesson2
+namespace Lesson2
 {
     class Program
     {
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
+            Console.Write("Введите максимальную суточную температуру: ");
 
-            Console.SetCursorPosition(30, 5);
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.WriteLine("Hello!,What's your name?");
-            string name = Console.ReadLine();
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"hello,{name}!");
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"" +
-                $"{DateTime.Now} Now,{name}!");
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            double tempMax = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Введите минимальную суточную температуру: ");
+
+            double tempMin = Convert.ToDouble(Console.ReadLine());
+
+            double tempAvg = (tempMax + tempMin) / 2;
+
+            Console.WriteLine($"Среднесуточная температура: {tempAvg} градусов.");
+
+            if (tempAvg > 0)
+
+            {
+
+                int monthNumber = DateTime.Now.Month;
+
+                if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12)
+
+                    Console.WriteLine("Дождливая зима.");
+
+            }
+
+            Console.ReadKey();
         }
     }
 }
-
