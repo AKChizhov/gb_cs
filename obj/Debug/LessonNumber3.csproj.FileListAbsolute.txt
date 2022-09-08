@@ -1,0 +1,7 @@
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\bin\Debug\LessonNumber3.exe.config
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\bin\Debug\LessonNumber3.exe
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\bin\Debug\LessonNumber3.pdb
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\obj\Debug\LessonNumber3.csproj.AssemblyReference.cache
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\obj\Debug\LessonNumber3.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\obj\Debug\LessonNumber3.exe
+C:\Users\Андрей\VisualStudioCode\Lesson_3\LessonNumber3\obj\Debug\LessonNumber3.pdb
